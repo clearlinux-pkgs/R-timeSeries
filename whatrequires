@@ -1,11 +1,16 @@
 # This file contains recursive sources that require this package
 R-PerformanceAnalytics
+R-fAsianOptions
 R-fAssets
 R-fBasics
 R-fBonds
+R-fCopulae
+R-fExoticOptions
+R-fGarch
 R-fImport
 R-fMultivar
 R-fNonlinear
 R-fOptions
 R-fRegression
 R-fTrading
+R-fUnitRoots

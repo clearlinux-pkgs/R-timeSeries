@@ -4,7 +4,7 @@
 #
 Name     : R-timeSeries
 Version  : 3042.102
-Release  : 17
+Release  : 18
 URL      : https://cran.r-project.org/src/contrib/timeSeries_3042.102.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/timeSeries_3042.102.tar.gz
 Summary  : Rmetrics - Financial Time Series Objects

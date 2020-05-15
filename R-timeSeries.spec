@@ -4,7 +4,7 @@
 #
 Name     : R-timeSeries
 Version  : 3062.100
-Release  : 20
+Release  : 21
 URL      : https://cran.r-project.org/src/contrib/timeSeries_3062.100.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/timeSeries_3062.100.tar.gz
 Summary  : Financial Time Series Objects (Rmetrics)
@@ -17,25 +17,27 @@ BuildRequires : R-xts
 BuildRequires : buildreq-R
 
 %description
-introduction of timeSeries package in the Rmetrics suite after svn revision 3319
+Basic functions such as scaling and sorting, subsetting,
+  mathematical operations and statistical functions.
 
 %prep
 %setup -q -c -n timeSeries
+cd %{_builddir}/timeSeries
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1579896808
+export SOURCE_DATE_EPOCH=1589533083
 
 %install
-export SOURCE_DATE_EPOCH=1579896808
+export SOURCE_DATE_EPOCH=1589533083
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
-export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
-export FFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
+export FCFLAGS="$FFLAGS -O3 -flto -fno-semantic-interposition "
+export FFLAGS="$FFLAGS -O3 -flto -fno-semantic-interposition "
 export CXXFLAGS="$CXXFLAGS -O3 -flto -fno-semantic-interposition "
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

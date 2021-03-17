@@ -4,14 +4,13 @@
 #
 Name     : R-timeSeries
 Version  : 3062.100
-Release  : 23
+Release  : 24
 URL      : https://cran.r-project.org/src/contrib/timeSeries_3062.100.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/timeSeries_3062.100.tar.gz
 Summary  : Financial Time Series Objects (Rmetrics)
 Group    : Development/Tools
 License  : GPL-2.0 GPL-2.0+
 Requires: R-timeDate
-Requires: R-xts
 BuildRequires : R-timeDate
 BuildRequires : R-xts
 BuildRequires : buildreq-R
@@ -29,10 +28,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1589533083
+export SOURCE_DATE_EPOCH=1616003009
 
 %install
-export SOURCE_DATE_EPOCH=1589533083
+export SOURCE_DATE_EPOCH=1616003009
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "

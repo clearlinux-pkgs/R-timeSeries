@@ -4,7 +4,7 @@
 #
 Name     : R-timeSeries
 Version  : 4021.105
-Release  : 41
+Release  : 42
 URL      : https://cran.r-project.org/src/contrib/timeSeries_4021.105.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/timeSeries_4021.105.tar.gz
 Summary  : Financial Time Series Objects (Rmetrics)

@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-timeSeries
-Version  : 4030.106
-Release  : 46
-URL      : https://cran.r-project.org/src/contrib/timeSeries_4030.106.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/timeSeries_4030.106.tar.gz
+Version  : 4031.107
+Release  : 47
+URL      : https://cran.r-project.org/src/contrib/timeSeries_4031.107.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/timeSeries_4031.107.tar.gz
 Summary  : Financial Time Series Objects (Rmetrics)
 Group    : Development/Tools
 License  : GPL-2.0 GPL-2.0+
@@ -43,10 +43,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1685648487
+export SOURCE_DATE_EPOCH=1693257175
 
 %install
-export SOURCE_DATE_EPOCH=1685648487
+export SOURCE_DATE_EPOCH=1693257175
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/R-timeSeries
 cp %{_builddir}/timeSeries/inst/COPYING %{buildroot}/usr/share/package-licenses/R-timeSeries/e393cdc6b44acda4c324a5214d468691b0a42119 || :

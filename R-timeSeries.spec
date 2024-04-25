@@ -7,7 +7,7 @@
 #
 Name     : R-timeSeries
 Version  : 4032.109
-Release  : 50
+Release  : 51
 URL      : https://cran.r-project.org/src/contrib/timeSeries_4032.109.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/timeSeries_4032.109.tar.gz
 Summary  : Financial Time Series Objects (Rmetrics)
